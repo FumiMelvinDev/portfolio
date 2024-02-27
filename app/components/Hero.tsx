@@ -9,7 +9,7 @@ function Hero() {
       <div className="grid grid-cols-1 lg:grid-cols-12 mt-20">
         <div className="col-span-7 place-self-center text-center lg:text-left">
           <h1>
-            Hello, I'm{" "}
+            Hello, I`m{" "}
             <span>
               <TypeAnimation
                 sequence={["Fumi Melvin", 1200, "a Full Stack Developer", 1200]}
