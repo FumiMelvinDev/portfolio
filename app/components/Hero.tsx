@@ -20,9 +20,10 @@ function Hero() {
             </span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            dignissimos praesentium nesciunt ab ut officiis velit laboriosam
-            dolores, iste voluptates, est.
+            As a skilled full-stack web developer and proficient Flutter
+            developer, my objective is to leverage my expertise in both
+            front-end and back-end technologies to contribute effectively to
+            innovative projects.
           </p>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">

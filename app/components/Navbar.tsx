@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navLinks = [
@@ -22,10 +21,10 @@ const navLinks = [
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 p-4 bg-[#030c0c] bg-opacity-95">
+    <nav className="fixed top-0 left-0 right-0 z-10 py-4 px-12 bg-[#020c0c]">
       <div className="flex flex-wrap items-center justify-between text-white">
         <div>
-          <Link href={"/"}>Logo</Link>
+          <Link href={"/"}>FumiMelvin</Link>
         </div>
         <div className="mobile block md:hidden">
           {!isOpen ? (
@@ -55,7 +54,7 @@ function Navbar() {
         </div>
       </div>
       {isOpen ? (
-        <ul className="flex flex-col md:hidden text-white">
+        <ul className="flex flex-col md:hidden text-white items-center justify-center text-2xl">
           {navLinks.map((item) => (
             <Link key={item.name} href={item.href}>
               {item.name}
