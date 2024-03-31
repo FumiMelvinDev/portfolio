@@ -8,7 +8,7 @@ function Hero() {
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-12 mt-12">
         <div className="col-span-7 place-self-center sm:text-center lg:text-left">
-          <h1 className="text-2xl sm:text-4xl">
+          <h1 className="text-4xl md:text-6xl">
             Hello, I`m{" "}
             <span>
               <TypeAnimation

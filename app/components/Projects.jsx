@@ -50,7 +50,7 @@ function Projects() {
   ];
   return (
     <>
-      <h2 className="text-white text-4xl sm:text-6xl pb-4">My Projects</h2>
+      <h2 className="text-white text-3xl sm:text-5xl pb-4">My Projects</h2>
       <div className="grid lg:grid-cols-2 gap-8 md:gap-12">
         {myProjects.map((project) => (
           <ProjectCard

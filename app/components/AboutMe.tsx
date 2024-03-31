@@ -58,7 +58,7 @@ function AboutMe() {
     <section className="text-white">
       <div className="lg:grid lg:grid-cols-2 gap-8 py-8 px-4 ">
         <div className="">
-          <h2 className="text-4xl sm:text-6xl font-semibold pb-4">About Me</h2>
+          <h2 className="text-3xl sm:text-5xl font-semibold pb-4">About Me</h2>
           <p className="text-[#e5e5e5] text-base">
             As a Full-Stack Web Developer proficient in both front-end and
             back-end development, I excel in creating user-friendly websites and
