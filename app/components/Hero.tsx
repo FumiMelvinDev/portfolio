@@ -6,16 +6,16 @@ import { TypeAnimation } from "react-type-animation";
 function Hero() {
   return (
     <section>
-      <div className="grid grid-cols-1 lg:grid-cols-12 mt-20">
-        <div className="col-span-7 place-self-center text-center lg:text-left">
-          <h1>
+      <div className="grid grid-cols-1 lg:grid-cols-12 mt-12">
+        <div className="col-span-7 place-self-center sm:text-center lg:text-left">
+          <h1 className="text-2xl sm:text-4xl">
             Hello, I`m{" "}
             <span>
               <TypeAnimation
                 sequence={["Fumi Melvin", 1200, "a Full Stack Developer", 1200]}
                 wrapper="span"
                 speed={50}
-                repeat={Infinity}
+                repeat={2}
               />
             </span>
           </h1>
